@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Furniture
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - PlayLayer
+  - Furniture
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Character
+    uniqueID: 2818457983
+    locked: 0
+  - name: Walls
+    uniqueID: 195670145
+    locked: 0
+  - name: Table Area
+    uniqueID: 1742234277
+    locked: 0
+  - name: Second Floor
+    uniqueID: 908257401
+    locked: 0
+  - name: Trash Area
+    uniqueID: 542168071
+    locked: 0
+  - name: Prep Area
+    uniqueID: 2346336201
+    locked: 0
+  - name: Corner
+    uniqueID: 2724401909
+    locked: 0
