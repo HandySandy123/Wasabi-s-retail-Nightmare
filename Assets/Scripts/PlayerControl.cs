@@ -46,22 +46,29 @@ public class PlayerControl : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log(other.gameObject.name);
         if (other.gameObject.CompareTag("Furniture") && other.gameObject.TryGetComponent<SpriteRenderer>(out SpriteRenderer furnitureSpriteRenderer))
         {
             int furnitureLayer = furnitureSpriteRenderer.sortingLayerID;
             SortSprites(furnitureLayer, furnitureSpriteRenderer);
         }
+        
     }
 
     private void SortSprites(int sortingLayer, SpriteRenderer furnitureSpriteRenderer)
     {
-        Debug.Log(sortingLayer);
+        //Debug.Log(sortingLayer);
         //spriteRenderer.sortingLayerID = sortingLayer;
     }
 
     void OnDisable()
     {
         InteractAction.action.started -= Interact;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("collision");
     }
 
     void Interact(InputAction.CallbackContext context)

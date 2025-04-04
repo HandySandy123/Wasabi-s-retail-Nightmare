@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Furniture
+  - Interactible
   layers:
   - Default
   - TransparentFX
@@ -54,12 +55,15 @@ TagManager:
   - name: Second Floor
     uniqueID: 908257401
     locked: 0
-  - name: Trash Area
-    uniqueID: 542168071
-    locked: 0
   - name: Prep Area
     uniqueID: 2346336201
     locked: 0
+  - name: Trash Area
+    uniqueID: 542168071
+    locked: 0
   - name: Corner
     uniqueID: 2724401909
+    locked: 0
+  - name: IMinigames
+    uniqueID: 1363796465
     locked: 0
